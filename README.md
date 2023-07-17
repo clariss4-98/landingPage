@@ -1,0 +1,1 @@
+This Page will be a landing Page built from scratch and with flexbox. The design is from The Odin Project.

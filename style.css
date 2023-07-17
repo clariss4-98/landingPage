@@ -1,0 +1,27 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color:#1F2937;
+    padding: 8px;
+    
+    
+}
+.title{
+    color:white;
+    font-size: large;
+}
+
+.right-header{
+    display: flex;;
+    flex-direction: row;
+    gap: 16px;
+}
+li{
+    list-style: none;
+    margin: 0;
+    padding:0;
+}
+a{
+    text-decoration: none;
+    color: white
+}
