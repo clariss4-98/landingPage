@@ -107,8 +107,7 @@ button{
 .rounded{
     border-radius: 8px;
 }
-/* third container - quote 
-Move up the author*/
+/* third container - quote */
 .quote-container{
     display:flex;
     flex-direction: column;
@@ -122,13 +121,15 @@ Move up the author*/
     font-size: 36px;
     font-style: italic;
     font-weight: 300;
-    color:#1F2937
+    color:#1F2937;
+    margin:0;
 }
 .author{
     font-weight: bold;
     color:#1F2937;
     font-size: 20px;
     align-self: flex-end;
+    margin:0;
 }
 /* forth container - action */
 .action-container{
