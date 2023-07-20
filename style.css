@@ -147,4 +147,32 @@ button{
     align-self: flex-end;
 }
 
+/* fifth block */
+
+.action-container{
+    display: flex;
+    background-color: #3882F6;
+    margin: 100px;
+    border-radius: 8px;
+    justify-content: space-around;
+    
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+}
+.action-p{
+    display: flex;
+    flex-direction: column;
+    color: #E5E7EB;
+}
+.action-head{
+    font-weight: bold;
+    font-size: 24px;
+}
+.button-white{
+    border-color: #E5E7EB;
+    display: flex;
+    align-self: center;
+}
+
 
