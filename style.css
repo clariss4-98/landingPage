@@ -1,24 +1,20 @@
 body{
     display:flex;
     flex-direction: column;
- 
-    
 }
+/* header */
 .header{
     display: flex;
     justify-content: space-between;
     background-color:#1F2937;
     padding: 8px;
     padding-left: 150px;
-    padding-right: 150px;
-    
-    
+    padding-right: 150px;  
 }
 .title{
     color:white;
     font-size: large;
 }
-
 .right-header{
     display: flex;;
     flex-direction: row;
@@ -33,12 +29,7 @@ a{
     text-decoration: none;
     color: white
 }
-
-
-
-
-/* second block */
-
+/* first container */
 .top-container{
     display: flex;
     background-color: #1F2937;
@@ -49,19 +40,16 @@ a{
     padding-bottom: 100px;
     padding-top: 100px;
     flex: 1 1 0;
-    gap: 16px;
-    
+    gap: 16px;  
 }
 .left, .right{
     display: flex;
     flex-direction: column;
-    width: 50%;
-  
+    width: 50%; 
 }
 .left.title{
     font-size: larger;
 }
-
 .hero-main{
     font-size: 48px;
     font-weight: 800;
@@ -70,7 +58,6 @@ a{
 p {
     color:#F9FAF8;
 }
-
 button{
     color:#F9FAF8;
     background-color: #3882F6;
@@ -81,9 +68,7 @@ button{
     padding-left: 12px;
     padding-right: 12px;
 }
-
-/* third block*/
-
+/* second container - images*/
 .info-container{
     display:flex;
     justify-content: center;
@@ -92,10 +77,8 @@ button{
     padding-right: 150px;
     padding-bottom: 100px;
     padding-top: 100px;
-    gap: 50px;
-    
+    gap: 50px;   
 }
-
 .images-and-text{
     display: flex;
     flex-direction: row;
@@ -112,9 +95,7 @@ button{
 .img1 , .img2, .img3 , .img4{
     display: flex;
     flex-direction: column;
-    width: 25%;
-    
-    
+    width: 25%;  
 }
 .subtext{
     color: #1F2937;
@@ -123,9 +104,7 @@ button{
 .rounded{
     border-radius: 8px;
 }
-
-/* fourth block */
-
+/* third container - quote */
 .quote-container{
     display:flex;
     flex-direction: column;
@@ -146,19 +125,15 @@ button{
     font-size: 20px;
     align-self: flex-end;
 }
-
-/* fifth block */
-
+/* forth container - action */
 .action-container{
     display: flex;
     background-color: #3882F6;
     margin: 100px;
     border-radius: 8px;
     justify-content: space-around;
-    
     padding-top: 30px;
     padding-bottom: 30px;
-
 }
 .action-p{
     display: flex;
