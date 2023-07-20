@@ -49,20 +49,41 @@ a{
     padding-bottom: 100px;
     padding-top: 100px;
     flex: 1 1 0;
+    gap: 16px;
     
 }
 .left, .right{
     display: flex;
     flex-direction: column;
     width: 50%;
-    
-    
-    
-    
+  
 }
 .left.title{
     font-size: larger;
 }
+
+.hero-main{
+    font-size: 48px;
+    font-weight: 800;
+    color:#F9FAF8;
+}
+p {
+    color:#F9FAF8;
+}
+
+button{
+    color:#F9FAF8;
+    background-color: #3882F6;
+    align-self: flex-start;
+    font-weight: bold;
+    border-radius: 8px;
+    padding: 4px;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+/* third block*/
+
 
 
 
