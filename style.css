@@ -27,7 +27,7 @@ li{
 }
 a{
     text-decoration: none;
-    color: white
+    color: #F9FAF8
 }
 /* first container */
 .top-container{
@@ -138,16 +138,27 @@ button{
 .action-p{
     display: flex;
     flex-direction: column;
-    color: #E5E7EB;
+    color: #F9FAF8;
 }
 .action-head{
     font-weight: bold;
     font-size: 24px;
 }
 .button-white{
-    border-color: #E5E7EB;
+    border-color:#F9FAF8;
+    ;
     display: flex;
     align-self: center;
+}
+/* footer */
+.footer{
+    display: flex;
+    padding: 30px;
+    background-color: #1F2937;
+    justify-content: center; 
+}
+.footer-text{
+    color: #F9FAF8; 
 }
 
 
