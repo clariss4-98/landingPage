@@ -37,7 +37,7 @@ a{
 
 
 
-/* here starts the second block */
+/* second block */
 
 .top-container{
     display: flex;
@@ -84,6 +84,45 @@ button{
 
 /* third block*/
 
+.info-container{
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-bottom: 100px;
+    padding-top: 100px;
+    gap: 50px;
+    
+}
+
+.images-and-text{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 50px;
+    flex: 1 1 0;
+}
+.info-header{
+    text-align: center;
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+}
+.img1 , .img2, .img3 , .img4{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    
+    
+}
+.subtext{
+    color: #1F2937;
+    text-align: center;
+}
+.rounded{
+    border-radius: 8px;
+}
 
 
 
