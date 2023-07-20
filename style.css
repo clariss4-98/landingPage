@@ -1,6 +1,7 @@
 body{
     display:flex;
     flex-direction: column;
+    margin: 0;
 }
 /* header */
 .header{
@@ -30,7 +31,8 @@ a{
     text-decoration: none;
     color: #F9FAF8
 }
-/* first container */
+/* first container 
+Adjust flex, so picture and text-container flex proportionally*/
 .top-container{
     display: flex;
     background-color: #1F2937;
@@ -105,7 +107,8 @@ button{
 .rounded{
     border-radius: 8px;
 }
-/* third container - quote */
+/* third container - quote 
+Move up the author*/
 .quote-container{
     display:flex;
     flex-direction: column;
@@ -136,9 +139,7 @@ button{
     justify-content: space-around;
     padding: 30px;
     padding-left: 50px;
-    padding-right: 50px;
-
-    
+    padding-right: 50px; 
 }
 .action-p{
     display: flex;
